@@ -25,25 +25,23 @@ form.addEventListener("submit", (e) => {
 
         stats.push(survey.value);
 
-        
+
         diveIn.innerHTML = `
 
 
 
-        ` 
+        `
         errorElement.innerHTML = `
 
-        <h1>${userName.value}!</h1>
+        <h1>Welcome ${userName.value}!</h1>
 
 
         <h3> 2022 Suggested Playlist: Soul Freq by Fabric + Frequency</h3>
 
         <iframe src="https://open.spotify.com/embed/playlist/4anat28vEho8eSvtZtgHci" width="100%" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-        <p>Happy Beats,</p>
+        <p>-1 BAT<p/>
 
-        <p>-1-BAT<p/>
-        
         `
     }
 
@@ -54,24 +52,17 @@ form.addEventListener("submit", (e) => {
         stats.push(survey.value);
 
         diveIn.innerHTML = `
-        
+
 
         `
         errorElement.innerHTML =`
 
-        <h1> Yo ${userName.value}! </h1>
-        
-        New to coding? - NP! Head over to <a href="https://FreeCodeCamp.org" target="_blank">Free Code Camp</a> & sign up for a free account.
+        <h1> Welcome ${userName.value}! </h1>
 
-         Start with Responsive Web Design (300 Hours). This is the perfect jump-start to your journey to becoming a Software Engineer.
-
-         Please feel to reach out if you have any questions or get stuck. We're here to help.
-
-        Happy Coding,
-
-        1-BAT
+        Register Today to join 10x Pledge or to become an Ally <br />
+        <button class='button2' style="font-size: 30px;" style="color: gray;">register</button>
 
         `
-       
+
     }
 })

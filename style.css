@@ -97,7 +97,6 @@
     margin-top: 35px;
 }
 .sound:hover {
-    /* background-image: url("maschine-beats.gif"); */
     background-position: center;
     background-color: transparent;
     border: solid .5px;
@@ -144,7 +143,6 @@
 }
 
 .beat-box:hover {
-    /* background-image: url("maschine-beats.gif"); */
     background-position: center;
     background-color: rgb(0, 0, 0);
     color: white;
@@ -177,7 +175,7 @@
 }
 
 .nav-div {
-   
+
     font-family: 'Courier New', Courier, monospace;
     color: rgb(73, 73, 45);
     display: inline;
@@ -190,7 +188,7 @@
     width: 100%;
 }
 
-.material-icons { 
+.material-icons {
     font-size: 50px;
     position: static;
     color: rgb(231, 231, 231);
@@ -229,6 +227,23 @@ outline: transparent;
 font-size: 25px;
 }
 
+.button2 {
+    background-color: rgb(129, 137, 143);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 25px;
+    border: transparent;
+    width: fit-content;
+    resize: vertical;
+    outline: transparent;
+    font-size: 25px;
+    }
+
+.button2:hover {
+    background-color: rgb(38, 189, 43);
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    color: rgb(255, 255, 255);
+    }
+
 .buttons:hover {
 background-color: rgb(90, 84, 143);
 box-shadow: 0 0 11px rgba(33,33,33,.2);
@@ -261,5 +276,3 @@ background-image: url('tvstatic.txt')
     color: yellow;
     width: 100%;
 }
-
-
